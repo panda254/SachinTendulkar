@@ -1,0 +1,22 @@
+{
+  "name": "SachinTendulkar",
+  "version": "0.1.0",
+  "summary": "A short description of SachinTendulkar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/panda254/SachinTendulkar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "panda254": "arpitp@zendrive.com"
+  },
+  "source": {
+    "git": "https://github.com/panda254/SachinTendulkar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SachinTendulkar/Classes/**/*"
+}

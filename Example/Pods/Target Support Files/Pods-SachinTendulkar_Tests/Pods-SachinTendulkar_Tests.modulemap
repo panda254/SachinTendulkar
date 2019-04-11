@@ -1,0 +1,6 @@
+framework module Pods_SachinTendulkar_Tests {
+  umbrella header "Pods-SachinTendulkar_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

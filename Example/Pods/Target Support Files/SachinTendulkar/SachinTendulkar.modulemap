@@ -1,0 +1,6 @@
+framework module SachinTendulkar {
+  umbrella header "SachinTendulkar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,16 @@
 //
 
 #import "SRTAppDelegate.h"
+#import "SachinTendulkar.h"
 
 @implementation SRTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSString *desc;
+    [SachinTendulkar didHeScore:123 desc:&desc];
+    int i = 0;
     return YES;
 }
 

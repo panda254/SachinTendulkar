@@ -1,0 +1,16 @@
+PODS:
+  - SachinTendulkar (0.1.0)
+
+DEPENDENCIES:
+  - SachinTendulkar (from `../`)
+
+EXTERNAL SOURCES:
+  SachinTendulkar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SachinTendulkar: 22c0c2f5a8b894cd44e0110a4129fb51134fbf24
+
+PODFILE CHECKSUM: 17136102b09b4d59a1a79c01350a22a7019e1dce
+
+COCOAPODS: 1.5.3
