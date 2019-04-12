@@ -13,7 +13,7 @@
     NSString *fileContents = [NSString stringWithContentsOfFile:[[NSBundle bundleForClass:[self class]] pathForResource:@"sachin" ofType:@"csv"] encoding:NSUTF8StringEncoding error:nil];
 
     NSArray* rows = [fileContents componentsSeparatedByString:@"\n"];
-    for (NSString *row in rows) {
+    for (NSString *row in rows){
         NSArray* columns = [row componentsSeparatedByString:@","];
         if ([columns[0] isEqualToString:@"DNB"] || [columns[0] isEqualToString:@"TDNB"]) {
             continue;

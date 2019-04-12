@@ -16,7 +16,7 @@
     // Override point for customization after application launch.
     NSString *desc;
     [SachinTendulkar didHeScore:123 desc:&desc];
-    int i = 0;
+    NSLog(@"%@", desc);
     return YES;
 }
 
